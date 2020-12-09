@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>algorithm</title>
+	<style type="text/css">
+		body{
+			margin:0px;
+			padding: 0px;
+		}
+		#div1{
+			background-color: black;
+			border:1px solid black;
+			color:white;
+			font-size: 20px;
+			text-align: center;
+			margin-top: 0px;
+			padding: 10px;
+		}
+		
+		#bub{
+			background-color: black;
+			color:white;
+			font-size: 30px;
+			padding: 15px;
+		}
+		#div2{
+			width: 100%;
+			text-align: center;
+			float:left;
+			background-color: white;
+			font-size: 30px;
+		}
+		#div21{
+			width:50%;
+			background-color: red;
+			float:left;
+			font-size: 30px;
+		}
+		.header{
+        height: 100px;
+        width: 100%;
+        border:1px solid black;
+        font-size: 150%;
+        text-align: center;
+        color:white;
+        background-color: black;
+        
+      }
+      .header h1{
+        padding-top: 0px;
+      }
+      ul{
+      font-size: 50px;
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      background-color: #34495E;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    ul li{
+      display: block;
+      
+      float:left;
+    }
+    ul li a{
+      display: block;
+      color: white;
+      text-decoration: none;
+        padding-left: 130px;
+      
+    }
+    ul li a:hover{
+        color:blue;
+        
+    }
+    #active{
+      color:red;
+    }
+	</style>
+</head>
+<body>
+	<div class="header"><h1>VISUALIZING SORTING ALGORITHM</h1></div>
+     <ul>
+      <li><a href="">Change Size</a></li>
+      <li><a id="active" href="">Algorithms</a></li>
+      <li><a  href="inde1.html">Bubble Sort</a></li>
+      <li><a href="">Quick Sort</a></li>
+      <li><a  href="index.html">Selection Sort</a></li>
+    </ul>
+		<div id="div1">
+			<h1>SORTING ALGORITHM</h1>
+			
+		</div>
+		<div id="div2">
+			<h2>BUBBLE SORT</h2>
+				<div id="div21">
+					<h3>Algorithm</h3>
+					<div id="bub">
+					<p>void bubbleSort(int arr[], int n) </p>
+                    <p>int i, j; </p>
+   					<p>for (i = 0; i < n-1; i++) </p>      
+  
+           
+       				<p>for (j = 0; j < n-i-1; j++)  </p>
+           			<p>	if (arr[j] > arr[j+1]) </p>
+              		<p>	wap(&arr[j], &arr[j+1]); }</p>
+              		</div>
+				</div>
+				<div id="div21">
+					<h3>Explanation</h3>
+					<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2014/02/bubble-sort1.png" height="440px;">
+				</div>
+				<div id="div22">
+					
+				</div>
+		</div>
+		<div id="div2">
+			<h2>Selection Sort</h2>
+				<div id="div21">
+					<h3>Algorithm</h3>
+					<div id="bub">
+					<p>void selectionSort(int arr[], int n) { </p>
+    				<p>int i, j, min_idx; </p>
+  
+    
+    				<p>for (i = 0; i < n-1; i++) { </p>
+        
+       				 <p>min_idx = i; </p>
+        				<p>for (j = i+1; j < n; j++) </p>
+         				<p> if (arr[j] < arr[min_idx]) </p>
+           				<p> min_idx = j; </p>
+  
+        
+        				<p>swap(&arr[min_idx], &arr[i]); }}</p>
+    
+ 
+              		</div>
+				</div>
+				<div id="div21">
+					<h3>Explanation</h3>
+					<img src="https://runestone.academy/runestone/books/published/pythonds/_images/selectionsortnew.png" height="568px;">
+				</div>
+				<div id="div22">
+					
+				</div>
+		</div>
+		<div id="div2">
+			<h2>Quick Sort</h2>
+				<div id="div21">
+					<h3>Algorithm</h3>
+					<div id="bub">
+					<p>quickSort(arr[], low, high){</p>
+    				<p>if (low < high){</p>
+        			<p>	pi = partition(arr, low, high);</p>
+
+        			<p>	quickSort(arr, low, pi - 1);  </p>
+        			<p>	quickSort(arr, pi + 1, high); } }</p>
+    
+ 
+              		</div>
+				</div>
+				<div id="div21">
+					<h3>Explanation</h3>
+					<img src="https://www.techiedelight.com/wp-content/uploads/Quicksort.png" height="375px;">
+				</div>
+				<div id="div22">
+					
+				</div>
+		</div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>p5</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style type="text/css">
+      body{
+        margin:0px;
+        padding:0px;
+      }
+      .header{
+        height: 100px;
+        width: 100%;
+        border:1px solid black;
+        font-size: 150%;
+        text-align: center;
+        color:white;
+        background-color: black;
+        
+      }
+      .header h1{
+        padding-top: 0px;
+      }
+      ul{
+      font-size: 50px;
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      background-color: #34495E;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    ul li{
+      display: block;
+      
+      float:left;
+    }
+    ul li a{
+      display: block;
+      color: white;
+      text-decoration: none;
+        padding-left: 130px;
+      
+    }
+    ul li a:hover{
+        color:blue;
+        
+    }
+    #active{
+      color:red;
+    }
+      
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.js"></script>
+  <script src="sketch.js" type="text/javascript"></script>
+    
+</head>
+<body>
+    <div class="header"><h1>VISUALIZING SORTING ALGORITHM</h1></div>
+     <ul>
+      <li><a href="">Change Size</a></li>
+      <li><a href="algorithm.html">Algorithms</a></li>
+      <li><a  href="inde1.html">Bubble Sort</a></li>
+      <li><a href="">Quick Sort</a></li>
+      <li><a id="active" href="">Selection Sort</a></li>
+    </ul>
+</html>
